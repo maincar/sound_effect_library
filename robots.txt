@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maincar.github.io/Sound-effect-library/sitemap.xml
