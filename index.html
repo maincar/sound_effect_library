@@ -6,6 +6,12 @@
   <title>効果音リンク集</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="無料で使える効果音のリンク集。カテゴリ別・検索・並び替えでお目当ての効果音をすぐに見つけられます。">
+  <link rel="canonical" href="https://maincar.github.io/sound_effect_library/index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="効果音リンク集">
+  <meta property="og:title" content="効果音リンク集">
+  <meta property="og:description" content="無料で使える効果音のリンク集。カテゴリ別・検索・並び替えでお目当ての効果音をすぐに見つけられます。">
+  <meta property="og:url" content="https://maincar.github.io/sound_effect_library/index.html">
 
 <style>
 body {
@@ -32,6 +38,20 @@ h1 {
   font-size: 15px;
   border-radius: 8px;
   border: 1px solid #ccc;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+#langToggle {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 13px;
 }
 
 .categories {
@@ -149,7 +169,11 @@ h1 {
 
 <body>
 
-<h1>効果音リンク集</h1>
+<div class="top-bar">
+  <button id="langToggle" aria-label="Switch language">English</button>
+</div>
+
+<h1 id="pageTitle">効果音リンク集</h1>
 
 <div class="controls">
   <input id="search" type="text" placeholder="検索" aria-label="検索">
@@ -173,11 +197,50 @@ h1 {
 </div>
 
 <script>
-const SHEET_ID = "ここにスプレッドシートID";
-const SHEET_NAME = "シート1";
+const I18N = {
+  ja: {
+    pageTitle: "効果音リンク集",
+    searchPlaceholder: "検索",
+    searchLabel: "検索",
+    sortLabel: "並び替え",
+    sortNew: "新着順",
+    sortOld: "古い順",
+    sortTitleAsc: "タイトル昇順",
+    sortTitleDesc: "タイトル降順",
+    all: "すべて",
+    uncategorized: "未分類",
+    ad: "広告",
+    closeLabel: "閉じる",
+    langToggle: "English",
+    metaDescription: "無料で使える効果音のリンク集。カテゴリ別・検索・並び替えでお目当ての効果音をすぐに見つけられます。",
+    soundMetaDescription: title => `${title}の効果音です。YouTubeで視聴できます。`,
+    soundPageTitle: title => `${title} 効果音｜無料効果音`,
+  },
+  en: {
+    pageTitle: "Sound Effect Library",
+    searchPlaceholder: "Search",
+    searchLabel: "Search",
+    sortLabel: "Sort",
+    sortNew: "Newest",
+    sortOld: "Oldest",
+    sortTitleAsc: "Title (A-Z)",
+    sortTitleDesc: "Title (Z-A)",
+    all: "All",
+    uncategorized: "Uncategorized",
+    ad: "Ad",
+    closeLabel: "Close",
+    langToggle: "日本語",
+    metaDescription: "A free library of sound effect links. Search, sort, and filter by category to quickly find the sound you need.",
+    soundMetaDescription: title => `Free sound effect: ${title}. Listen on YouTube.`,
+    soundPageTitle: title => `${title} — Free Sound Effects`,
+  }
+};
 
+const SHEET_ID = "ここにスプレッドシートID";
 const ADS_SHEET = "ads";
 const ADS_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${ADS_SHEET}`;
+
+const SOUNDS_URL = "data/sounds.json";
 
 const params = new URLSearchParams(location.search);
 const soundSlug = params.get("sound");
@@ -187,10 +250,19 @@ let ads = {
   bottom: []
 };
 
-const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${SHEET_NAME}`;
-
 let data = [];
-let currentCategory = "すべて";
+let currentCategoryKey = "all";
+let lang = localStorage.getItem("lang") === "en" ? "en" : "ja";
+
+function t() {
+  return I18N[lang];
+}
+
+function escapeHtml(str) {
+  return String(str ?? "").replace(/[&<>"']/g, ch => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[ch]));
+}
 
 fetch(ADS_URL)
   .then(res => res.text())
@@ -206,35 +278,30 @@ fetch(ADS_URL)
     setupBottomAd();
   });
 
-fetch(CSV_URL)
-  .then(res => res.text())
-  .then(text => {
-    const rows = text.trim().split("\n").slice(1);
-    data = rows.map((row, index) => {
-      const cols = row.replace(/"/g,"").split(",");
-        return {
-        index,
-        title: cols[0],
-        url: cols[1],
-        category: cols[2] || "未分類",
-        slug: cols[3]
-        };
-    });
+fetch(SOUNDS_URL)
+  .then(res => res.json())
+  .then(json => {
+    data = json.sounds || [];
     buildCategories();
     render();
   });
 
 function buildCategories() {
-  const cats = ["すべて", ...new Set(data.map(d => d.category))];
+  const seen = new Map();
+  data.forEach(d => {
+    if (!seen.has(d.category.key)) seen.set(d.category.key, d.category);
+  });
+  const categories = [{ key: "all" }, ...seen.values()];
+
   const el = document.getElementById("categories");
   el.innerHTML = "";
 
-  cats.forEach(cat => {
+  categories.forEach(cat => {
     const btn = document.createElement("button");
-    btn.textContent = cat;
-    if (cat === currentCategory) btn.classList.add("active");
+    btn.textContent = cat.key === "all" ? t().all : (cat[lang] || cat.ja);
+    if (cat.key === currentCategoryKey) btn.classList.add("active");
     btn.onclick = () => {
-      currentCategory = cat;
+      currentCategoryKey = cat.key;
       document.querySelectorAll(".categories button")
         .forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
@@ -244,29 +311,65 @@ function buildCategories() {
   });
 }
 
-function getThumbnail(url) {
-  const id = url.split("v=")[1];
-  return `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+function applyStaticText() {
+  const s = t();
+  document.documentElement.lang = lang;
+  document.getElementById("langToggle").textContent = s.langToggle;
+  document.getElementById("search").placeholder = s.searchPlaceholder;
+  document.getElementById("search").setAttribute("aria-label", s.searchLabel);
+  document.getElementById("sort").setAttribute("aria-label", s.sortLabel);
+  document.getElementById("bottomClose").setAttribute("aria-label", s.closeLabel);
+
+  const sortEl = document.getElementById("sort");
+  sortEl.options[0].textContent = s.sortNew;
+  sortEl.options[1].textContent = s.sortOld;
+  sortEl.options[2].textContent = s.sortTitleAsc;
+  sortEl.options[3].textContent = s.sortTitleDesc;
+
+  if (!soundSlug) {
+    document.getElementById("pageTitle").textContent = s.pageTitle;
+    document.title = s.pageTitle;
+    setMetaDescription(s.metaDescription);
+    setOg({ title: s.pageTitle, description: s.metaDescription, url: "https://maincar.github.io/sound_effect_library/index.html" });
+  }
 }
 
+document.getElementById("langToggle").addEventListener("click", () => {
+  lang = lang === "ja" ? "en" : "ja";
+  localStorage.setItem("lang", lang);
+  applyStaticText();
+  buildCategories();
+  render();
+});
+
 function render() {
+  applyStaticText();
 
   // ▼ 個別効果音ページ
   if (soundSlug) {
     const item = data.find(d => d.slug === soundSlug);
     if (!item) return;
 
-    // SEO反映
-    document.title = `${item.title} 効果音｜無料効果音`;
-    setMetaDescription(`${item.title}の効果音です。YouTubeで視聴できます。`);
+    const title = item.title[lang] || item.title.ja;
+    const category = item.category[lang] || item.category.ja;
 
-    document.querySelector("h1").textContent = item.title;
+    document.title = t().soundPageTitle(title);
+    setMetaDescription(t().soundMetaDescription(title));
+    setOg({
+      title,
+      description: t().soundMetaDescription(title),
+      image: item.thumbnail,
+      url: `https://maincar.github.io/sound_effect_library/index.html?sound=${item.slug}`
+    });
+    setJsonLd(item, title);
+
+    document.getElementById("pageTitle").textContent = title;
 
     document.getElementById("list").innerHTML = `
       <a class="card" href="${item.url}" target="_blank">
-        <img src="${getThumbnail(item.url)}" alt="${item.title}">
-        <div class="card-title">${item.title}</div>
-        <div class="card-category">${item.category}</div>
+        <img src="${item.thumbnail}" alt="${escapeHtml(title)}">
+        <div class="card-title">${escapeHtml(title)}</div>
+        <div class="card-category">${escapeHtml(category)}</div>
       </a>
     `;
 
@@ -279,51 +382,54 @@ function render() {
 
   let list = data.filter(d => {
     const matchCategory =
-      currentCategory === "すべて" || d.category === currentCategory;
-    const matchKeyword =
-      d.title.toLowerCase().includes(keyword);
+      currentCategoryKey === "all" || d.category.key === currentCategoryKey;
+    const title = (d.title[lang] || d.title.ja).toLowerCase();
+    const matchKeyword = title.includes(keyword);
     return matchCategory && matchKeyword;
   });
 
   // 並び替え
   list.sort((a, b) => {
+    const titleA = a.title[lang] || a.title.ja;
+    const titleB = b.title[lang] || b.title.ja;
     switch (sortType) {
       case "old":
-        return a.index - b.index;
+        return new Date(a.publishedAt) - new Date(b.publishedAt);
       case "title-asc":
-        return a.title.localeCompare(b.title, "ja");
+        return titleA.localeCompare(titleB, lang);
       case "title-desc":
-        return b.title.localeCompare(a.title, "ja");
+        return titleB.localeCompare(titleA, lang);
       default: // new
-        return b.index - a.index;
+        return new Date(b.publishedAt) - new Date(a.publishedAt);
     }
   });
 
   const el = document.getElementById("list");
   el.innerHTML = "";
 
-list.forEach((item, i) => {
+  list.forEach((item, i) => {
+    const title = item.title[lang] || item.title.ja;
+    const category = item.category[lang] || item.category.ja;
 
-  el.innerHTML += `
-    <a class="card" href="?sound=${item.slug}">
-      <img src="${getThumbnail(item.url)}" alt="${item.title}">
-      <div class="card-title">${item.title}</div>
-      <div class="card-category">${item.category}</div>
-    </a>
-  `;
-
-  if ((i + 1) % 8 === 0 && ads.feed.length) {
-    const ad = ads.feed[i % ads.feed.length];
     el.innerHTML += `
-      <a class="ad-card" href="${ad.link}" target="_blank">
-        <img src="${ad.image}" alt="${ad.title}">
-        <div class="ad-title">${ad.title}</div>
-        <div class="ad-label">広告</div>
+      <a class="card" href="?sound=${item.slug}">
+        <img src="${item.thumbnail}" alt="${escapeHtml(title)}">
+        <div class="card-title">${escapeHtml(title)}</div>
+        <div class="card-category">${escapeHtml(category)}</div>
       </a>
     `;
-  }
-});
 
+    if ((i + 1) % 8 === 0 && ads.feed.length) {
+      const ad = ads.feed[i % ads.feed.length];
+      el.innerHTML += `
+        <a class="ad-card" href="${ad.link}" target="_blank">
+          <img src="${ad.image}" alt="${escapeHtml(ad.title)}">
+          <div class="ad-title">${escapeHtml(ad.title)}</div>
+          <div class="ad-label">${t().ad}</div>
+        </a>
+      `;
+    }
+  });
 }
 
 document.getElementById("search").addEventListener("input", render);
@@ -342,18 +448,6 @@ function setupBottomAd() {
   };
 }
 
-
-function buildSeoText(list) {
-  const seoEl = document.getElementById("seo-text");
-
-  const titles = list.map(item => `${item.title} 効果音`);
-
-  seoEl.innerHTML = `
-    <h2>効果音一覧</h2>
-    <p>${titles.join("、")}</p>
-  `;
-}
-
 function setMetaDescription(text) {
   let meta = document.querySelector("meta[name='description']");
   if (!meta) {
@@ -364,9 +458,43 @@ function setMetaDescription(text) {
   meta.content = text;
 }
 
+function setOgTag(property, content) {
+  let meta = document.querySelector(`meta[property='${property}']`);
+  if (!meta) {
+    meta = document.createElement("meta");
+    meta.setAttribute("property", property);
+    document.head.appendChild(meta);
+  }
+  meta.content = content;
+}
+
+function setOg({ title, description, image, url }) {
+  setOgTag("og:title", title);
+  setOgTag("og:description", description);
+  setOgTag("og:url", url);
+  if (image) setOgTag("og:image", image);
+}
+
+function setJsonLd(item, title) {
+  let script = document.getElementById("jsonLd");
+  if (!script) {
+    script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "jsonLd";
+    document.head.appendChild(script);
+  }
+  script.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: title,
+    description: t().soundMetaDescription(title),
+    thumbnailUrl: item.thumbnail,
+    uploadDate: item.publishedAt,
+    contentUrl: item.url,
+    embedUrl: item.url
+  });
+}
 </script>
 
-<!-- SEO用 自動生成テキスト -->
-<section id="seo-text" style="display:none;"></section>
 </body>
 </html>
