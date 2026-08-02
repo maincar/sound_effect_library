@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta name="google-site-verification" content="OZUXnz2dq-uqkAN4pJ6e1ynbfsdCJkLxc9Nsod7xL_Y" />
   <meta charset="UTF-8">
+  <meta name="google-site-verification" content="OZUXnz2dq-uqkAN4pJ6e1ynbfsdCJkLxc9Nsod7xL_Y" />
   <title>効果音リンク集</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="無料で使える効果音のリンク集。カテゴリ別・検索・並び替えでお目当ての効果音をすぐに見つけられます。">
 
 <style>
 body {
@@ -151,8 +152,8 @@ h1 {
 <h1>効果音リンク集</h1>
 
 <div class="controls">
-  <input id="search" type="text" placeholder="検索">
-  <select id="sort">
+  <input id="search" type="text" placeholder="検索" aria-label="検索">
+  <select id="sort" aria-label="並び替え">
     <option value="new">新着順</option>
     <option value="old">古い順</option>
     <option value="title-asc">タイトル昇順</option>
@@ -166,9 +167,9 @@ h1 {
 
 <div id="bottomAd">
   <a id="bottomLink" target="_blank">
-    <img id="bottomImg">
+    <img id="bottomImg" alt="広告">
   </a>
-  <button id="bottomClose">×</button>
+  <button id="bottomClose" aria-label="閉じる">×</button>
 </div>
 
 <script>
@@ -263,7 +264,7 @@ function render() {
 
     document.getElementById("list").innerHTML = `
       <a class="card" href="${item.url}" target="_blank">
-        <img src="${getThumbnail(item.url)}">
+        <img src="${getThumbnail(item.url)}" alt="${item.title}">
         <div class="card-title">${item.title}</div>
         <div class="card-category">${item.category}</div>
       </a>
@@ -305,7 +306,7 @@ list.forEach((item, i) => {
 
   el.innerHTML += `
     <a class="card" href="?sound=${item.slug}">
-      <img src="${getThumbnail(item.url)}">
+      <img src="${getThumbnail(item.url)}" alt="${item.title}">
       <div class="card-title">${item.title}</div>
       <div class="card-category">${item.category}</div>
     </a>
@@ -315,7 +316,7 @@ list.forEach((item, i) => {
     const ad = ads.feed[i % ads.feed.length];
     el.innerHTML += `
       <a class="ad-card" href="${ad.link}" target="_blank">
-        <img src="${ad.image}">
+        <img src="${ad.image}" alt="${ad.title}">
         <div class="ad-title">${ad.title}</div>
         <div class="ad-label">広告</div>
       </a>
