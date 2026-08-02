@@ -25,12 +25,14 @@
 
 ### 必要なSecretsのセットアップ
 
-このワークフローを動かすには、リポジトリに以下の2つのSecretsを登録する必要があります(GitHubの `Settings → Secrets and variables → Actions` から登録)。
+このワークフローを動かすには、リポジトリに以下のSecretsを登録します(GitHubの `Settings → Secrets and variables → Actions` から登録)。
 
-| Secret名 | 取得方法 |
-| --- | --- |
-| `YOUTUBE_API_KEY` | [Google Cloud Console](https://console.cloud.google.com/) でプロジェクトを作成し、YouTube Data API v3 を有効化してAPIキーを発行 |
-| `DEEPL_API_KEY` | [DeepL](https://www.deepl.com/pro-api) で API Free プランに登録し、APIキーを発行(無料枠: 月50万文字) |
+| Secret名 | 必須/任意 | 取得方法 |
+| --- | --- | --- |
+| `YOUTUBE_API_KEY` | 必須 | [Google Cloud Console](https://console.cloud.google.com/) でプロジェクトを作成し、YouTube Data API v3 を有効化してAPIキーを発行 |
+| `DEEPL_API_KEY` | 任意 | [DeepL](https://www.deepl.com/pro-api) で API Free プランに登録し、APIキーを発行(無料枠: 月50万文字) |
+
+`DEEPL_API_KEY` が未設定の場合、英語タイトル・カテゴリ名は自動翻訳されず日本語のまま表示されます(`YOUTUBE_API_KEY` だけでも同期は動作します)。あとから `DEEPL_API_KEY` を追加すれば、次回の同期で英訳が反映されます。
 
 登録後、GitHubの Actions タブから `Sync YouTube data` ワークフローを "Run workflow" で手動実行すると、すぐにデータが同期されます。CLIからも実行できます。
 

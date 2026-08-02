@@ -19,7 +19,11 @@ const SITEMAP_PATH = path.join(process.cwd(), "sitemap.xml");
 
 function requireEnv() {
   if (!YOUTUBE_API_KEY) throw new Error("Missing YOUTUBE_API_KEY env var");
-  if (!DEEPL_API_KEY) throw new Error("Missing DEEPL_API_KEY env var");
+  if (!DEEPL_API_KEY) {
+    console.warn(
+      "DEEPL_API_KEY is not set — skipping translation, English fields will fall back to the Japanese text."
+    );
+  }
 }
 
 async function ytGet(endpoint, params) {
@@ -149,15 +153,19 @@ async function deeplTranslate(texts) {
 
 async function translateAll(jaTexts, cache) {
   const unique = [...new Set(jaTexts)];
-  const toTranslate = unique.filter((t) => !cache.has(t));
 
-  const BATCH_SIZE = 50;
-  for (let i = 0; i < toTranslate.length; i += BATCH_SIZE) {
-    const batch = toTranslate.slice(i, i + BATCH_SIZE);
-    const translated = await deeplTranslate(batch);
-    batch.forEach((ja, idx) => cache.set(ja, translated[idx]));
+  if (DEEPL_API_KEY) {
+    const toTranslate = unique.filter((t) => !cache.has(t));
+    const BATCH_SIZE = 50;
+    for (let i = 0; i < toTranslate.length; i += BATCH_SIZE) {
+      const batch = toTranslate.slice(i, i + BATCH_SIZE);
+      const translated = await deeplTranslate(batch);
+      batch.forEach((ja, idx) => cache.set(ja, translated[idx]));
+    }
   }
 
+  // Without a DeepL key (or for any text the API didn't return), fall back
+  // to the original Japanese text so the site still renders in English mode.
   const result = new Map();
   for (const t of unique) result.set(t, cache.get(t) ?? t);
   return result;
