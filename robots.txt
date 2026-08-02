@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://maincar.github.io/Sound-effect-library/sitemap.xml
+Sitemap: https://maincar.github.io/sound_effect_library/sitemap.xml
