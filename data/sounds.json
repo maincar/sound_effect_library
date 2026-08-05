@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-04T19:18:49.999Z",
+  "generatedAt": "2026-08-05T19:15:13.477Z",
   "sounds": [
+    {
+      "videoId": "YGnYOiuERqs",
+      "slug": "YGnYOiuERqs",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】テッテレー",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】テッテレー"
+      },
+      "category": {
+        "key": "cat-e38390e383",
+        "ja": "バラエティ（おもしろ）",
+        "en": "バラエティ（おもしろ）"
+      },
+      "url": "https://www.youtube.com/watch?v=YGnYOiuERqs",
+      "thumbnail": "https://i.ytimg.com/vi/YGnYOiuERqs/hqdefault.jpg",
+      "publishedAt": "2026-08-05T09:00:32Z"
+    },
     {
       "videoId": "Vjh2L2Yn1e8",
       "slug": "Vjh2L2Yn1e8",
