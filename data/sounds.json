@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-06T23:50:06.693Z",
+  "generatedAt": "2026-08-07T18:40:33.783Z",
   "sounds": [
+    {
+      "videoId": "WB5h7nCTvtk",
+      "slug": "WB5h7nCTvtk",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】拍子木2",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】拍子木2"
+      },
+      "category": {
+        "key": "cat-e6a5bde599",
+        "ja": "楽器",
+        "en": "楽器"
+      },
+      "url": "https://www.youtube.com/watch?v=WB5h7nCTvtk",
+      "thumbnail": "https://i.ytimg.com/vi/WB5h7nCTvtk/hqdefault.jpg",
+      "publishedAt": "2026-08-07T09:00:01Z"
+    },
     {
       "videoId": "eCGjH7GS_O4",
       "slug": "eCGjH7GS_O4",
