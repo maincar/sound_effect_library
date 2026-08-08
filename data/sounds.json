@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-07T18:40:33.783Z",
+  "generatedAt": "2026-08-08T18:22:42.346Z",
   "sounds": [
+    {
+      "videoId": "zxeEpg1G1V4",
+      "slug": "zxeEpg1G1V4",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】和太鼓",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】和太鼓"
+      },
+      "category": {
+        "key": "cat-e6a5bde599",
+        "ja": "楽器",
+        "en": "楽器"
+      },
+      "url": "https://www.youtube.com/watch?v=zxeEpg1G1V4",
+      "thumbnail": "https://i.ytimg.com/vi/zxeEpg1G1V4/hqdefault.jpg",
+      "publishedAt": "2026-08-08T09:00:30Z"
+    },
     {
       "videoId": "WB5h7nCTvtk",
       "slug": "WB5h7nCTvtk",
