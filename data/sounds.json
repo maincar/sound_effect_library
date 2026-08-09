@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-08T18:22:42.346Z",
+  "generatedAt": "2026-08-09T18:25:45.007Z",
   "sounds": [
+    {
+      "videoId": "uFjCwhBtfIU",
+      "slug": "uFjCwhBtfIU",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】スクラッチ",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】スクラッチ"
+      },
+      "category": {
+        "key": "cat-e6a5bde599",
+        "ja": "楽器",
+        "en": "楽器"
+      },
+      "url": "https://www.youtube.com/watch?v=uFjCwhBtfIU",
+      "thumbnail": "https://i.ytimg.com/vi/uFjCwhBtfIU/hqdefault.jpg",
+      "publishedAt": "2026-08-09T09:00:17Z"
+    },
     {
       "videoId": "zxeEpg1G1V4",
       "slug": "zxeEpg1G1V4",
