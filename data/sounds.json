@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-09T18:25:45.007Z",
+  "generatedAt": "2026-08-10T18:42:49.323Z",
   "sounds": [
+    {
+      "videoId": "rR60OCNyD7k",
+      "slug": "rR60OCNyD7k",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】卵を混ぜる",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】卵を混ぜる"
+      },
+      "category": {
+        "key": "cat-e7949fe6b4",
+        "ja": "生活音",
+        "en": "生活音"
+      },
+      "url": "https://www.youtube.com/watch?v=rR60OCNyD7k",
+      "thumbnail": "https://i.ytimg.com/vi/rR60OCNyD7k/hqdefault.jpg",
+      "publishedAt": "2026-08-10T09:00:35Z"
+    },
     {
       "videoId": "uFjCwhBtfIU",
       "slug": "uFjCwhBtfIU",
