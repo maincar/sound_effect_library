@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-14T18:40:43.420Z",
+  "generatedAt": "2026-08-15T18:14:50.727Z",
   "sounds": [
+    {
+      "videoId": "mZWjTggO5cg",
+      "slug": "mZWjTggO5cg",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】卵を割る",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】卵を割る"
+      },
+      "category": {
+        "key": "cat-e7949fe6b4",
+        "ja": "生活音",
+        "en": "生活音"
+      },
+      "url": "https://www.youtube.com/watch?v=mZWjTggO5cg",
+      "thumbnail": "https://i.ytimg.com/vi/mZWjTggO5cg/hqdefault.jpg",
+      "publishedAt": "2026-08-15T09:00:12Z"
+    },
     {
       "videoId": "zsr5GHMFgDw",
       "slug": "zsr5GHMFgDw",
