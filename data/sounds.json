@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-16T18:14:38.742Z",
+  "generatedAt": "2026-08-17T18:24:00.179Z",
   "sounds": [
+    {
+      "videoId": "3ZRuOhokzP0",
+      "slug": "3ZRuOhokzP0",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】びっくり音",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】びっくり音"
+      },
+      "category": {
+        "key": "youtube",
+        "ja": "Youtube効果音",
+        "en": "Youtube効果音"
+      },
+      "url": "https://www.youtube.com/watch?v=3ZRuOhokzP0",
+      "thumbnail": "https://i.ytimg.com/vi/3ZRuOhokzP0/hqdefault.jpg",
+      "publishedAt": "2026-08-17T09:00:00Z"
+    },
     {
       "videoId": "2CVkR_Y49cA",
       "slug": "2CVkR_Y49cA",
