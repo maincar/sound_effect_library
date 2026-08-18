@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-17T18:24:00.179Z",
+  "generatedAt": "2026-08-18T18:23:02.343Z",
   "sounds": [
+    {
+      "videoId": "4XVxzvLdLf0",
+      "slug": "4XVxzvLdLf0",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】お知らせ2",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】お知らせ2"
+      },
+      "category": {
+        "key": "cat-e7949fe6b4",
+        "ja": "生活音",
+        "en": "生活音"
+      },
+      "url": "https://www.youtube.com/watch?v=4XVxzvLdLf0",
+      "thumbnail": "https://i.ytimg.com/vi/4XVxzvLdLf0/hqdefault.jpg",
+      "publishedAt": "2026-08-18T09:00:32Z"
+    },
     {
       "videoId": "3ZRuOhokzP0",
       "slug": "3ZRuOhokzP0",
