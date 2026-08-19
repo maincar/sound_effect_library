@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-18T18:23:02.343Z",
+  "generatedAt": "2026-08-19T18:19:40.621Z",
   "sounds": [
+    {
+      "videoId": "BjxGn5H8zSc",
+      "slug": "BjxGn5H8zSc",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ゴットイーター、神堕",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ゴットイーター、神堕"
+      },
+      "category": {
+        "key": "cat-e382b2e383",
+        "ja": "ゲーム",
+        "en": "ゲーム"
+      },
+      "url": "https://www.youtube.com/watch?v=BjxGn5H8zSc",
+      "thumbnail": "https://i.ytimg.com/vi/BjxGn5H8zSc/hqdefault.jpg",
+      "publishedAt": "2026-08-19T09:00:37Z"
+    },
     {
       "videoId": "4XVxzvLdLf0",
       "slug": "4XVxzvLdLf0",
