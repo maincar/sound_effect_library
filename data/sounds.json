@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-24T18:25:47.619Z",
+  "generatedAt": "2026-08-25T18:24:44.277Z",
   "sounds": [
+    {
+      "videoId": "_u8ZerWay3g",
+      "slug": "_u8ZerWay3g",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ブー",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ブー"
+      },
+      "category": {
+        "key": "cat-e38390e383",
+        "ja": "バラエティ（おもしろ）",
+        "en": "バラエティ（おもしろ）"
+      },
+      "url": "https://www.youtube.com/watch?v=_u8ZerWay3g",
+      "thumbnail": "https://i.ytimg.com/vi/_u8ZerWay3g/hqdefault.jpg",
+      "publishedAt": "2026-08-25T09:00:23Z"
+    },
     {
       "videoId": "ax4FayGVAxE",
       "slug": "ax4FayGVAxE",
