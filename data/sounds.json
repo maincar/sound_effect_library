@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-25T18:24:44.277Z",
+  "generatedAt": "2026-08-26T19:39:07.946Z",
   "sounds": [
+    {
+      "videoId": "gbib2aRhU_w",
+      "slug": "gbib2aRhU_w",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】アンパンマンの歌のキラキラ",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】アンパンマンの歌のキラキラ"
+      },
+      "category": {
+        "key": "youtube",
+        "ja": "Youtube効果音",
+        "en": "Youtube効果音"
+      },
+      "url": "https://www.youtube.com/watch?v=gbib2aRhU_w",
+      "thumbnail": "https://i.ytimg.com/vi/gbib2aRhU_w/hqdefault.jpg",
+      "publishedAt": "2026-08-26T09:00:01Z"
+    },
     {
       "videoId": "_u8ZerWay3g",
       "slug": "_u8ZerWay3g",
