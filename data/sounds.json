@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-26T19:39:07.946Z",
+  "generatedAt": "2026-08-28T01:54:56.088Z",
   "sounds": [
+    {
+      "videoId": "gjk5QZvK6Gw",
+      "slug": "gjk5QZvK6Gw",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】チーン(おりん)",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】チーン(おりん)"
+      },
+      "category": {
+        "key": "cat-e6a5bde599",
+        "ja": "楽器",
+        "en": "楽器"
+      },
+      "url": "https://www.youtube.com/watch?v=gjk5QZvK6Gw",
+      "thumbnail": "https://i.ytimg.com/vi/gjk5QZvK6Gw/hqdefault.jpg",
+      "publishedAt": "2026-08-27T09:00:27Z"
+    },
     {
       "videoId": "gbib2aRhU_w",
       "slug": "gbib2aRhU_w",
