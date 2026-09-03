@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-02T20:17:57.212Z",
+  "generatedAt": "2026-09-03T20:17:47.580Z",
   "sounds": [
+    {
+      "videoId": "tVCezTI-XOs",
+      "slug": "tVCezTI-XOs",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ゴットイーター、神告知",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ゴットイーター、神告知"
+      },
+      "category": {
+        "key": "cat-e382b2e383",
+        "ja": "ゲーム",
+        "en": "ゲーム"
+      },
+      "url": "https://www.youtube.com/watch?v=tVCezTI-XOs",
+      "thumbnail": "https://i.ytimg.com/vi/tVCezTI-XOs/hqdefault.jpg",
+      "publishedAt": "2026-09-03T09:00:04Z"
+    },
     {
       "videoId": "qYefMvev8z4",
       "slug": "qYefMvev8z4",
