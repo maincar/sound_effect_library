@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-03T20:17:47.580Z",
+  "generatedAt": "2026-09-04T20:02:28.553Z",
   "sounds": [
+    {
+      "videoId": "r2C9iy0VFRo",
+      "slug": "r2C9iy0VFRo",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】鼓動",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】鼓動"
+      },
+      "category": {
+        "key": "cat-e4babae381",
+        "ja": "人の動作",
+        "en": "人の動作"
+      },
+      "url": "https://www.youtube.com/watch?v=r2C9iy0VFRo",
+      "thumbnail": "https://i.ytimg.com/vi/r2C9iy0VFRo/hqdefault.jpg",
+      "publishedAt": "2026-09-04T09:00:34Z"
+    },
     {
       "videoId": "tVCezTI-XOs",
       "slug": "tVCezTI-XOs",
