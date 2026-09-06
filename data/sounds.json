@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-05T19:43:27.555Z",
+  "generatedAt": "2026-09-06T19:46:28.149Z",
   "sounds": [
+    {
+      "videoId": "jkvpvQoJ8xE",
+      "slug": "jkvpvQoJ8xE",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】出題",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】出題"
+      },
+      "category": {
+        "key": "cat-e38390e383",
+        "ja": "バラエティ（おもしろ）",
+        "en": "バラエティ（おもしろ）"
+      },
+      "url": "https://www.youtube.com/watch?v=jkvpvQoJ8xE",
+      "thumbnail": "https://i.ytimg.com/vi/jkvpvQoJ8xE/hqdefault.jpg",
+      "publishedAt": "2026-09-06T09:00:30Z"
+    },
     {
       "videoId": "z3SUHlZBhso",
       "slug": "z3SUHlZBhso",
