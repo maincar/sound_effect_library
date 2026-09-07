@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-06T19:46:28.149Z",
+  "generatedAt": "2026-09-07T20:55:09.094Z",
   "sounds": [
+    {
+      "videoId": "w8SEvO1GHx0",
+      "slug": "w8SEvO1GHx0",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ゴング",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ゴング"
+      },
+      "category": {
+        "key": "cat-e382b9e383",
+        "ja": "スポーツ",
+        "en": "スポーツ"
+      },
+      "url": "https://www.youtube.com/watch?v=w8SEvO1GHx0",
+      "thumbnail": "https://i.ytimg.com/vi/w8SEvO1GHx0/hqdefault.jpg",
+      "publishedAt": "2026-09-07T09:00:07Z"
+    },
     {
       "videoId": "jkvpvQoJ8xE",
       "slug": "jkvpvQoJ8xE",
