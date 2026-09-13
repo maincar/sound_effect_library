@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-12T19:52:26.166Z",
+  "generatedAt": "2026-09-13T20:00:31.093Z",
   "sounds": [
+    {
+      "videoId": "cxipKnNDMhg",
+      "slug": "cxipKnNDMhg",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】テニス、ドリブル",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】テニス、ドリブル"
+      },
+      "category": {
+        "key": "cat-e382b9e383",
+        "ja": "スポーツ",
+        "en": "スポーツ"
+      },
+      "url": "https://www.youtube.com/watch?v=cxipKnNDMhg",
+      "thumbnail": "https://i.ytimg.com/vi/cxipKnNDMhg/hqdefault.jpg",
+      "publishedAt": "2026-09-13T09:00:37Z"
+    },
     {
       "videoId": "eB1rsmlGUh8",
       "slug": "eB1rsmlGUh8",
