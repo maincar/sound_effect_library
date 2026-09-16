@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-15T20:39:27.235Z",
+  "generatedAt": "2026-09-16T20:39:13.108Z",
   "sounds": [
+    {
+      "videoId": "lbWQVEpAWBU",
+      "slug": "lbWQVEpAWBU",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】野球、キャッチ",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】野球、キャッチ"
+      },
+      "category": {
+        "key": "cat-e382b9e383",
+        "ja": "スポーツ",
+        "en": "スポーツ"
+      },
+      "url": "https://www.youtube.com/watch?v=lbWQVEpAWBU",
+      "thumbnail": "https://i.ytimg.com/vi/lbWQVEpAWBU/hqdefault.jpg",
+      "publishedAt": "2026-09-16T09:00:34Z"
+    },
     {
       "videoId": "VF7zGHgicvA",
       "slug": "VF7zGHgicvA",
