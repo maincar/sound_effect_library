@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-16T20:39:13.108Z",
+  "generatedAt": "2026-09-17T20:45:40.424Z",
   "sounds": [
+    {
+      "videoId": "payI0gWipMc",
+      "slug": "payI0gWipMc",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】バスケットボール、ドリブル",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】バスケットボール、ドリブル"
+      },
+      "category": {
+        "key": "cat-e382b9e383",
+        "ja": "スポーツ",
+        "en": "スポーツ"
+      },
+      "url": "https://www.youtube.com/watch?v=payI0gWipMc",
+      "thumbnail": "https://i.ytimg.com/vi/payI0gWipMc/hqdefault.jpg",
+      "publishedAt": "2026-09-17T09:00:38Z"
+    },
     {
       "videoId": "lbWQVEpAWBU",
       "slug": "lbWQVEpAWBU",
