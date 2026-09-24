@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-23T20:51:41.406Z",
+  "generatedAt": "2026-09-24T20:56:45.649Z",
   "sounds": [
+    {
+      "videoId": "yR8vq2URwmQ",
+      "slug": "yR8vq2URwmQ",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】決定2",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】決定2"
+      },
+      "category": {
+        "key": "youtube",
+        "ja": "Youtube効果音",
+        "en": "Youtube効果音"
+      },
+      "url": "https://www.youtube.com/watch?v=yR8vq2URwmQ",
+      "thumbnail": "https://i.ytimg.com/vi/yR8vq2URwmQ/hqdefault.jpg",
+      "publishedAt": "2026-09-24T09:00:12Z"
+    },
     {
       "videoId": "IQByDiz2Or0",
       "slug": "IQByDiz2Or0",
