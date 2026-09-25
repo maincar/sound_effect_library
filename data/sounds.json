@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-24T20:56:45.649Z",
+  "generatedAt": "2026-09-25T20:53:01.222Z",
   "sounds": [
+    {
+      "videoId": "HSEIqtOIORo",
+      "slug": "HSEIqtOIORo",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ヒグラシの鳴き声",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ヒグラシの鳴き声"
+      },
+      "category": {
+        "key": "cat-e58b95e789",
+        "ja": "動物",
+        "en": "動物"
+      },
+      "url": "https://www.youtube.com/watch?v=HSEIqtOIORo",
+      "thumbnail": "https://i.ytimg.com/vi/HSEIqtOIORo/hqdefault.jpg",
+      "publishedAt": "2026-09-25T09:00:02Z"
+    },
     {
       "videoId": "yR8vq2URwmQ",
       "slug": "yR8vq2URwmQ",
