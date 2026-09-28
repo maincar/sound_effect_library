@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-27T20:36:31.029Z",
+  "generatedAt": "2026-09-28T22:45:55.473Z",
   "sounds": [
+    {
+      "videoId": "RI9HtIqyBqk",
+      "slug": "RI9HtIqyBqk",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】キリギリスの鳴き声",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】キリギリスの鳴き声"
+      },
+      "category": {
+        "key": "cat-e58b95e789",
+        "ja": "動物",
+        "en": "動物"
+      },
+      "url": "https://www.youtube.com/watch?v=RI9HtIqyBqk",
+      "thumbnail": "https://i.ytimg.com/vi/RI9HtIqyBqk/hqdefault.jpg",
+      "publishedAt": "2026-09-28T09:00:38Z"
+    },
     {
       "videoId": "OTeT_Dh4cY0",
       "slug": "OTeT_Dh4cY0",
