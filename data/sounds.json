@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-30T21:40:18.387Z",
+  "generatedAt": "2026-10-01T22:08:09.934Z",
   "sounds": [
+    {
+      "videoId": "SQx2lGbMxPI",
+      "slug": "SQx2lGbMxPI",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ハクチョウの鳴き声",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ハクチョウの鳴き声"
+      },
+      "category": {
+        "key": "cat-e58b95e789",
+        "ja": "動物",
+        "en": "動物"
+      },
+      "url": "https://www.youtube.com/watch?v=SQx2lGbMxPI",
+      "thumbnail": "https://i.ytimg.com/vi/SQx2lGbMxPI/hqdefault.jpg",
+      "publishedAt": "2026-10-01T09:00:37Z"
+    },
     {
       "videoId": "f1awLQkhSYI",
       "slug": "f1awLQkhSYI",
