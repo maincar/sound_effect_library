@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-01T22:08:09.934Z",
+  "generatedAt": "2026-10-02T21:35:35.184Z",
   "sounds": [
+    {
+      "videoId": "hnrfIm4yMoo",
+      "slug": "hnrfIm4yMoo",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】能楽囃子(村雨留)",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】能楽囃子(村雨留)"
+      },
+      "category": {
+        "key": "cat-e6a5bde599",
+        "ja": "楽器",
+        "en": "楽器"
+      },
+      "url": "https://www.youtube.com/watch?v=hnrfIm4yMoo",
+      "thumbnail": "https://i.ytimg.com/vi/hnrfIm4yMoo/hqdefault.jpg",
+      "publishedAt": "2026-10-02T09:00:21Z"
+    },
     {
       "videoId": "SQx2lGbMxPI",
       "slug": "SQx2lGbMxPI",
