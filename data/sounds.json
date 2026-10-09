@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-08T22:39:45.109Z",
+  "generatedAt": "2026-10-09T22:01:03.319Z",
   "sounds": [
+    {
+      "videoId": "rMgvGOOTdY0",
+      "slug": "rMgvGOOTdY0",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】相撲(寄せ太鼓)",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】相撲(寄せ太鼓)"
+      },
+      "category": {
+        "key": "cat-e382b9e383",
+        "ja": "スポーツ",
+        "en": "スポーツ"
+      },
+      "url": "https://www.youtube.com/watch?v=rMgvGOOTdY0",
+      "thumbnail": "https://i.ytimg.com/vi/rMgvGOOTdY0/hqdefault.jpg",
+      "publishedAt": "2026-10-09T09:00:11Z"
+    },
     {
       "videoId": "TGxQbgDg1G4",
       "slug": "TGxQbgDg1G4",
