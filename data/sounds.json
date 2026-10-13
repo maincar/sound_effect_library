@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-12T23:57:49.046Z",
+  "generatedAt": "2026-10-13T22:06:04.497Z",
   "sounds": [
+    {
+      "videoId": "4xOD0dHGvFk",
+      "slug": "4xOD0dHGvFk",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】スポーツ緊張の瞬間",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】スポーツ緊張の瞬間"
+      },
+      "category": {
+        "key": "cat-e382b9e383",
+        "ja": "スポーツ",
+        "en": "スポーツ"
+      },
+      "url": "https://www.youtube.com/watch?v=4xOD0dHGvFk",
+      "thumbnail": "https://i.ytimg.com/vi/4xOD0dHGvFk/hqdefault.jpg",
+      "publishedAt": "2026-10-13T09:00:01Z"
+    },
     {
       "videoId": "ta4sTmPpnRg",
       "slug": "ta4sTmPpnRg",
