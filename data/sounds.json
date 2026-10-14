@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-13T22:06:04.497Z",
+  "generatedAt": "2026-10-14T21:06:52.966Z",
   "sounds": [
+    {
+      "videoId": "q-aSbtFKwbU",
+      "slug": "q-aSbtFKwbU",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】陸上電子スタート音",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】陸上電子スタート音"
+      },
+      "category": {
+        "key": "cat-e382b9e383",
+        "ja": "スポーツ",
+        "en": "スポーツ"
+      },
+      "url": "https://www.youtube.com/watch?v=q-aSbtFKwbU",
+      "thumbnail": "https://i.ytimg.com/vi/q-aSbtFKwbU/hqdefault.jpg",
+      "publishedAt": "2026-10-14T09:00:12Z"
+    },
     {
       "videoId": "4xOD0dHGvFk",
       "slug": "4xOD0dHGvFk",
