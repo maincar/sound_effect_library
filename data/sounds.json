@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-21T21:02:41.554Z",
+  "generatedAt": "2026-10-22T20:58:52.924Z",
   "sounds": [
+    {
+      "videoId": "C6qnNJfhDzQ",
+      "slug": "C6qnNJfhDzQ",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】競馬ファンファーレ",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】競馬ファンファーレ"
+      },
+      "category": {
+        "key": "cat-e382b9e383",
+        "ja": "スポーツ",
+        "en": "スポーツ"
+      },
+      "url": "https://www.youtube.com/watch?v=C6qnNJfhDzQ",
+      "thumbnail": "https://i.ytimg.com/vi/C6qnNJfhDzQ/hqdefault.jpg",
+      "publishedAt": "2026-10-22T09:00:23Z"
+    },
     {
       "videoId": "9jrWF9o305k",
       "slug": "9jrWF9o305k",
