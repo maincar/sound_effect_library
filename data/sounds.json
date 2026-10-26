@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-25T20:09:30.747Z",
+  "generatedAt": "2026-10-26T22:06:33.849Z",
   "sounds": [
+    {
+      "videoId": "xCy1P1VLJjU",
+      "slug": "xCy1P1VLJjU",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】高速駆け抜け",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】高速駆け抜け"
+      },
+      "category": {
+        "key": "youtube",
+        "ja": "Youtube効果音",
+        "en": "Youtube効果音"
+      },
+      "url": "https://www.youtube.com/watch?v=xCy1P1VLJjU",
+      "thumbnail": "https://i.ytimg.com/vi/xCy1P1VLJjU/hqdefault.jpg",
+      "publishedAt": "2026-10-26T09:00:09Z"
+    },
     {
       "videoId": "xYPEA_mGXOI",
       "slug": "xYPEA_mGXOI",
