@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-29T22:12:54.997Z",
+  "generatedAt": "2026-10-30T21:47:57.716Z",
   "sounds": [
+    {
+      "videoId": "bwzxGS_tZ5A",
+      "slug": "bwzxGS_tZ5A",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ボキッ",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ボキッ"
+      },
+      "category": {
+        "key": "cat-e4babae381",
+        "ja": "人の動作",
+        "en": "人の動作"
+      },
+      "url": "https://www.youtube.com/watch?v=bwzxGS_tZ5A",
+      "thumbnail": "https://i.ytimg.com/vi/bwzxGS_tZ5A/hqdefault.jpg",
+      "publishedAt": "2026-10-30T09:00:04Z"
+    },
     {
       "videoId": "v6MEPdMjPH0",
       "slug": "v6MEPdMjPH0",
