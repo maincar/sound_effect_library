@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-30T21:47:57.716Z",
+  "generatedAt": "2026-10-31T20:47:54.801Z",
   "sounds": [
+    {
+      "videoId": "_us15Vp2ues",
+      "slug": "_us15Vp2ues",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】開幕",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】開幕"
+      },
+      "category": {
+        "key": "youtube",
+        "ja": "Youtube効果音",
+        "en": "Youtube効果音"
+      },
+      "url": "https://www.youtube.com/watch?v=_us15Vp2ues",
+      "thumbnail": "https://i.ytimg.com/vi/_us15Vp2ues/hqdefault.jpg",
+      "publishedAt": "2026-10-31T09:00:14Z"
+    },
     {
       "videoId": "bwzxGS_tZ5A",
       "slug": "bwzxGS_tZ5A",
