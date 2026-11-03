@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-03T00:12:16.769Z",
+  "generatedAt": "2026-11-03T22:41:54.076Z",
   "sounds": [
+    {
+      "videoId": "NYLg85FKCg0",
+      "slug": "NYLg85FKCg0",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】スベる",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】スベる"
+      },
+      "category": {
+        "key": "cat-e38390e383",
+        "ja": "バラエティ（おもしろ）",
+        "en": "バラエティ（おもしろ）"
+      },
+      "url": "https://www.youtube.com/watch?v=NYLg85FKCg0",
+      "thumbnail": "https://i.ytimg.com/vi/NYLg85FKCg0/hqdefault.jpg",
+      "publishedAt": "2026-11-03T09:00:06Z"
+    },
     {
       "videoId": "RDD7EqrwS5Y",
       "slug": "RDD7EqrwS5Y",
