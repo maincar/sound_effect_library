@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-03T22:41:54.076Z",
+  "generatedAt": "2026-11-04T22:59:49.405Z",
   "sounds": [
+    {
+      "videoId": "KZCvm_o12uU",
+      "slug": "KZCvm_o12uU",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】飛んでいく",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】飛んでいく"
+      },
+      "category": {
+        "key": "cat-e38390e383",
+        "ja": "バラエティ（おもしろ）",
+        "en": "バラエティ（おもしろ）"
+      },
+      "url": "https://www.youtube.com/watch?v=KZCvm_o12uU",
+      "thumbnail": "https://i.ytimg.com/vi/KZCvm_o12uU/hqdefault.jpg",
+      "publishedAt": "2026-11-04T09:00:36Z"
+    },
     {
       "videoId": "NYLg85FKCg0",
       "slug": "NYLg85FKCg0",
