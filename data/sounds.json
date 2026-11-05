@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-04T22:59:49.405Z",
+  "generatedAt": "2026-11-05T23:01:57.668Z",
   "sounds": [
+    {
+      "videoId": "MZE0KUQHJB4",
+      "slug": "MZE0KUQHJB4",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】お知らせ",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】お知らせ"
+      },
+      "category": {
+        "key": "youtube",
+        "ja": "Youtube効果音",
+        "en": "Youtube効果音"
+      },
+      "url": "https://www.youtube.com/watch?v=MZE0KUQHJB4",
+      "thumbnail": "https://i.ytimg.com/vi/MZE0KUQHJB4/hqdefault.jpg",
+      "publishedAt": "2026-11-05T09:00:07Z"
+    },
     {
       "videoId": "KZCvm_o12uU",
       "slug": "KZCvm_o12uU",
