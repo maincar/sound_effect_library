@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-07T21:14:07.861Z",
+  "generatedAt": "2026-11-08T21:29:17.942Z",
   "sounds": [
+    {
+      "videoId": "CoMEjOC1E6Y",
+      "slug": "CoMEjOC1E6Y",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】出入り",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】出入り"
+      },
+      "category": {
+        "key": "youtube",
+        "ja": "Youtube効果音",
+        "en": "Youtube効果音"
+      },
+      "url": "https://www.youtube.com/watch?v=CoMEjOC1E6Y",
+      "thumbnail": "https://i.ytimg.com/vi/CoMEjOC1E6Y/hqdefault.jpg",
+      "publishedAt": "2026-11-08T09:00:09Z"
+    },
     {
       "videoId": "F-CU3ayiBVY",
       "slug": "F-CU3ayiBVY",
