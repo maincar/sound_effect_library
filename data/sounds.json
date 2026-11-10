@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-10T00:58:55.962Z",
+  "generatedAt": "2026-11-10T22:39:33.440Z",
   "sounds": [
+    {
+      "videoId": "Dwb7FvO3VIo",
+      "slug": "Dwb7FvO3VIo",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ショック",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ショック"
+      },
+      "category": {
+        "key": "cat-e4babae381",
+        "ja": "人の動作",
+        "en": "人の動作"
+      },
+      "url": "https://www.youtube.com/watch?v=Dwb7FvO3VIo",
+      "thumbnail": "https://i.ytimg.com/vi/Dwb7FvO3VIo/hqdefault.jpg",
+      "publishedAt": "2026-11-10T09:00:34Z"
+    },
     {
       "videoId": "8o1Qj8G7sN8",
       "slug": "8o1Qj8G7sN8",
