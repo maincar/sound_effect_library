@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-11T23:51:40.550Z",
+  "generatedAt": "2026-11-12T22:58:47.403Z",
   "sounds": [
+    {
+      "videoId": "XWall-P6BvQ",
+      "slug": "XWall-P6BvQ",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】モンスター召還1",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】モンスター召還1"
+      },
+      "category": {
+        "key": "cat-e382b2e383",
+        "ja": "ゲーム",
+        "en": "ゲーム"
+      },
+      "url": "https://www.youtube.com/watch?v=XWall-P6BvQ",
+      "thumbnail": "https://i.ytimg.com/vi/XWall-P6BvQ/hqdefault.jpg",
+      "publishedAt": "2026-11-12T09:00:01Z"
+    },
     {
       "videoId": "0_pCghCRaX8",
       "slug": "0_pCghCRaX8",
