@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-12T22:58:47.403Z",
+  "generatedAt": "2026-11-13T23:01:30.419Z",
   "sounds": [
+    {
+      "videoId": "g7_nw_m1whI",
+      "slug": "g7_nw_m1whI",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ドロー1",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ドロー1"
+      },
+      "category": {
+        "key": "cat-e382b2e383",
+        "ja": "ゲーム",
+        "en": "ゲーム"
+      },
+      "url": "https://www.youtube.com/watch?v=g7_nw_m1whI",
+      "thumbnail": "https://i.ytimg.com/vi/g7_nw_m1whI/hqdefault.jpg",
+      "publishedAt": "2026-11-13T09:00:18Z"
+    },
     {
       "videoId": "XWall-P6BvQ",
       "slug": "XWall-P6BvQ",
