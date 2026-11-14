@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-13T23:01:30.419Z",
+  "generatedAt": "2026-11-14T21:49:18.334Z",
   "sounds": [
+    {
+      "videoId": "IIqWlaQlGSg",
+      "slug": "IIqWlaQlGSg",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】破裂音1",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】破裂音1"
+      },
+      "category": {
+        "key": "cat-e382b2e383",
+        "ja": "ゲーム",
+        "en": "ゲーム"
+      },
+      "url": "https://www.youtube.com/watch?v=IIqWlaQlGSg",
+      "thumbnail": "https://i.ytimg.com/vi/IIqWlaQlGSg/hqdefault.jpg",
+      "publishedAt": "2026-11-14T09:00:39Z"
+    },
     {
       "videoId": "g7_nw_m1whI",
       "slug": "g7_nw_m1whI",
