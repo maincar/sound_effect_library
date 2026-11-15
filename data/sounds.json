@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-14T21:49:18.334Z",
+  "generatedAt": "2026-11-15T22:17:10.722Z",
   "sounds": [
+    {
+      "videoId": "NgrL7uWjbnE",
+      "slug": "NgrL7uWjbnE",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ライフポイント減",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ライフポイント減"
+      },
+      "category": {
+        "key": "cat-e382b2e383",
+        "ja": "ゲーム",
+        "en": "ゲーム"
+      },
+      "url": "https://www.youtube.com/watch?v=NgrL7uWjbnE",
+      "thumbnail": "https://i.ytimg.com/vi/NgrL7uWjbnE/hqdefault.jpg",
+      "publishedAt": "2026-11-15T09:00:26Z"
+    },
     {
       "videoId": "IIqWlaQlGSg",
       "slug": "IIqWlaQlGSg",
