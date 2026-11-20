@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-18T23:42:50.582Z",
+  "generatedAt": "2026-11-20T00:01:27.989Z",
   "sounds": [
+    {
+      "videoId": "1RCya3iVcgI",
+      "slug": "1RCya3iVcgI",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】お化け顔出し音",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】お化け顔出し音"
+      },
+      "category": {
+        "key": "cat-e382b7e383",
+        "ja": "シチュエーション",
+        "en": "シチュエーション"
+      },
+      "url": "https://www.youtube.com/watch?v=1RCya3iVcgI",
+      "thumbnail": "https://i.ytimg.com/vi/1RCya3iVcgI/hqdefault.jpg",
+      "publishedAt": "2026-11-19T09:00:22Z"
+    },
     {
       "videoId": "gsj7TCLtPWc",
       "slug": "gsj7TCLtPWc",
