@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-20T00:01:27.989Z",
+  "generatedAt": "2026-11-20T23:29:32.399Z",
   "sounds": [
+    {
+      "videoId": "m9Y13XkfMf8",
+      "slug": "m9Y13XkfMf8",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】攻防",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】攻防"
+      },
+      "category": {
+        "key": "cat-e38395e382",
+        "ja": "ファンタジー",
+        "en": "ファンタジー"
+      },
+      "url": "https://www.youtube.com/watch?v=m9Y13XkfMf8",
+      "thumbnail": "https://i.ytimg.com/vi/m9Y13XkfMf8/hqdefault.jpg",
+      "publishedAt": "2026-11-20T09:00:10Z"
+    },
     {
       "videoId": "1RCya3iVcgI",
       "slug": "1RCya3iVcgI",
