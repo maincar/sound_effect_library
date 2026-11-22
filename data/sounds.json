@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-21T22:35:43.282Z",
+  "generatedAt": "2026-11-22T22:58:31.064Z",
   "sounds": [
+    {
+      "videoId": "J5LE_Mg-wzs",
+      "slug": "J5LE_Mg-wzs",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】遊戯王CM",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】遊戯王CM"
+      },
+      "category": {
+        "key": "cat-e382b2e383",
+        "ja": "ゲーム",
+        "en": "ゲーム"
+      },
+      "url": "https://www.youtube.com/watch?v=J5LE_Mg-wzs",
+      "thumbnail": "https://i.ytimg.com/vi/J5LE_Mg-wzs/hqdefault.jpg",
+      "publishedAt": "2026-11-22T09:00:15Z"
+    },
     {
       "videoId": "E7P2l1DItXw",
       "slug": "E7P2l1DItXw",
