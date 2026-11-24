@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-22T22:58:31.064Z",
+  "generatedAt": "2026-11-24T03:37:45.485Z",
   "sounds": [
+    {
+      "videoId": "ItlNyQAhoG8",
+      "slug": "ItlNyQAhoG8",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】自転車ベル",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】自転車ベル"
+      },
+      "category": {
+        "key": "cat-e7949fe6b4",
+        "ja": "生活音",
+        "en": "生活音"
+      },
+      "url": "https://www.youtube.com/watch?v=ItlNyQAhoG8",
+      "thumbnail": "https://i.ytimg.com/vi/ItlNyQAhoG8/hqdefault.jpg",
+      "publishedAt": "2026-11-23T09:00:19Z"
+    },
     {
       "videoId": "J5LE_Mg-wzs",
       "slug": "J5LE_Mg-wzs",
