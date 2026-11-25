@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-24T03:37:45.485Z",
+  "generatedAt": "2026-11-25T01:45:09.233Z",
   "sounds": [
+    {
+      "videoId": "ceSxH5AOXHA",
+      "slug": "ceSxH5AOXHA",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音 or BGM】モンスター召還2",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音 or BGM】モンスター召還2"
+      },
+      "category": {
+        "key": "cat-e382b2e383",
+        "ja": "ゲーム",
+        "en": "ゲーム"
+      },
+      "url": "https://www.youtube.com/watch?v=ceSxH5AOXHA",
+      "thumbnail": "https://i.ytimg.com/vi/ceSxH5AOXHA/hqdefault.jpg",
+      "publishedAt": "2026-11-24T09:00:22Z"
+    },
     {
       "videoId": "ItlNyQAhoG8",
       "slug": "ItlNyQAhoG8",
