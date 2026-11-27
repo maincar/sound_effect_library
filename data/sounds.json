@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-11-26T01:19:21.476Z",
+  "generatedAt": "2026-11-27T01:17:19.890Z",
   "sounds": [
+    {
+      "videoId": "WwfdgVGeMPI",
+      "slug": "WwfdgVGeMPI",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ダメージ音",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ダメージ音"
+      },
+      "category": {
+        "key": "cat-e382b2e383",
+        "ja": "ゲーム",
+        "en": "ゲーム"
+      },
+      "url": "https://www.youtube.com/watch?v=WwfdgVGeMPI",
+      "thumbnail": "https://i.ytimg.com/vi/WwfdgVGeMPI/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:00:39Z"
+    },
+    {
+      "videoId": "N9p1jnU-AS4",
+      "slug": "N9p1jnU-AS4",
+      "title": {
+        "ja": "【商用利用可能/フリー素材/著作権フリー/効果音】ジャンプ移動",
+        "en": "【商用利用可能/フリー素材/著作権フリー/効果音】ジャンプ移動"
+      },
+      "category": {
+        "key": "cat-e38395e382",
+        "ja": "ファンタジー",
+        "en": "ファンタジー"
+      },
+      "url": "https://www.youtube.com/watch?v=N9p1jnU-AS4",
+      "thumbnail": "https://i.ytimg.com/vi/N9p1jnU-AS4/hqdefault.jpg",
+      "publishedAt": "2026-11-26T09:00:37Z"
+    },
     {
       "videoId": "Jly_Ag4pdBU",
       "slug": "Jly_Ag4pdBU",
